@@ -1,0 +1,95 @@
+/* SKILLS */
+
+dl, dd {
+  margin: 0;
+}
+
+#skills {
+  color: #333;
+}
+
+.skills-text {
+  /*max-width: 1080px;*/
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+}
+
+.skill-name {
+  text-align: left;
+  margin-top: 0.8vh;
+}
+
+.skills-list .skill-name:first-child {
+  margin-top: 0vh;
+}
+
+.skills-title {
+  display: block;
+  /*margin-bottom: 2rem;*/
+}
+
+.skills-title.underline:before {
+  width: 40px;
+}
+
+.skills-list {
+  overflow: hidden;
+  position: relative;
+  z-index: 10
+}
+
+.skill-name:after {
+  background-color: #999797;
+  content: '';
+  display: block;
+  height:1rem;
+  position: relative;
+  top: 3px;
+  /*top: 1rem;*/
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1px;
+}
+
+.skill-percent {
+  font-size: 0;
+  height: 1rem;
+  position: relative;
+  top: -.8rem;
+  transition: 3s linear;
+  width: 0;
+  border-radius: 10px;
+}
+
+/* SKILL BAR COLORS */
+
+.skill-percent-html {
+  background-color: #333;
+}
+.skill-percent-css {
+  background-color: #333;
+}
+.skill-percent-jquery {
+  background-color: #333;
+}
+.skill-percent-scss {
+  background-color: #333;
+}
+
+/* Heading Underline */
+
+.underline {
+  display: inline-block;
+  position: relative;
+}
+
+.underline:before {
+  background-color: #fff;
+  bottom: -15px;
+  content: '';
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 110%;
+}
