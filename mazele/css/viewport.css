@@ -1,0 +1,131 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 425px) {
+    .latest-work .row .work-image {
+    flex: 0 0 100%;
+    max-width: 100%;
+    order: -1;
+}
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+  .work-process .process-box {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .flex-33-50-100 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-top: 0;
+  }
+  .flex-25-50 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .flex-img {
+    display: none;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+/*  .latest-work .row .work-image {
+    flex: 0 0 100%;
+    max-width: 100%;
+}*/
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  .work-process .process-box {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .latest-work .work-text {
+    margin-left: 8.333333%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  .flex-33-50-100 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .flex-25-50 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .flex-img {
+    display: none;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .flex {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .flex-form {
+    margin-left: 16.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  .flex-form-100 {
+    text-align: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .flex-form-50 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .work-process .process-box {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  .flex-33-50-100 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .flex-25-50 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .flex-img {
+    display: block;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .flex {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/*  .work-process .process-box {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }*/
+
