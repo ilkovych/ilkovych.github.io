@@ -1369,8 +1369,8 @@ $item-height: 220px;
   }
 }
 
-// Textfield
-// ----------------
+/****** Textfield ******/
+
 .textfield {
   -webkit-appearance: none;
   box-sizing: border-box;
@@ -1773,29 +1773,6 @@ figcaption a:hover, figcaption p {
 
 
 /***** logo *****/
-
-/*#dark-logo {
-	position: absolute;
-	box-shadow: inset 0 1px 2px rgba(164,76,76,.3), 
-	0 0 0 2px rgba(199,166,116,.7);
-}
-
-#light-logo:hover ~ #dark-logo img {
-	display: block;
-}
-
-#light-logo:hover  img {
-	display: none;
-}
-
-
-#dark-logo:not(:hover) ~ #light-logo img {
-	display: block;
-}
-
-#dark-logo:not(:hover) img {
-	display: none;
-}*/
 
 #light-logo {
 	transition: .4s ease-in-out;
